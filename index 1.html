@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatrachaya Tuition House | Excellence in Education</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- AOS Animation Library CDN -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        brandGreen: '#0f4c3a',
+                        brandYellow: '#facc15',
+                        brandDark: '#090d16',
+                    },
+                    fontFamily: {
+                        sans: ['Plus Jakarta Sans', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-slate-950 text-slate-100 font-sans antialiased overflow-x-hidden selection:bg-brandYellow selection:text-brandDark">
+
+    <!-- Header / Navbar -->
+    <header class="fixed top-0 left-0 right-0 z-50 bg-slate-950/80 backdrop-blur-md border-b border-slate-800 shadow-lg transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <div class="flex items-center space-x-3">
+                <div class="bg-emerald-600 text-brandYellow p-2.5 rounded-xl shadow-md shadow-emerald-900/50">
+                    <i class="fa-solid fa-graduation-cap text-xl"></i>
+                </div>
+                <div>
+                    <span class="text-xl font-extrabold tracking-tight text-white block leading-tight">CHATRACHAYA</span>
+                    <span class="text-xs font-semibold tracking-widest text-brandYellow uppercase">Tuition House</span>
+                </div>
+            </div>
+            <nav class="hidden md:flex items-center space-x-8 font-medium text-slate-300">
+                <a href="#home" class="hover:text-brandYellow transition">Home</a>
+                <a href="#boards" class="hover:text-brandYellow transition">Boards</a>
+                <a href="#courses" class="hover:text-brandYellow transition">Courses</a>
+                <a href="#about" class="hover:text-brandYellow transition">About</a>
+                <a href="#contact" class="hover:text-brandYellow transition">Contact</a>
+            </nav>
+            <div>
+                <a href="#contact" class="hidden sm:inline-flex items-center justify-center bg-brandYellow text-brandDark font-bold px-5 py-2.5 rounded-xl shadow-lg hover:bg-yellow-400 transition transform hover:-translate-y-0.5">
+                    Enroll Now
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="relative pt-32 pb-20 md:pt-44 md:pb-32 bg-gradient-to-br from-slate-950 via-slate-900 to-emerald-950 text-white overflow-hidden">
+        <!-- Decorative Glow Effects -->
+        <div class="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-emerald-600/10 rounded-full blur-3xl pointer-events-none"></div>
+        
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            <div data-aos="fade-right" data-aos-duration="1000">
+                <span class="inline-flex items-center gap-2 bg-brandYellow/10 text-brandYellow border border-brandYellow/30 px-4 py-1.5 rounded-full text-sm font-semibold mb-6">
+                    <i class="fa-solid fa-bolt"></i> Admissions Open for 2026-27
+                </span>
+                <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-tight mb-6">
+                    Shape Your Future At <span class="text-brandYellow">Chatrachaya</span>
+                </h1>
+                <p class="text-lg text-slate-300 mb-8 max-w-xl">
+                    Comprehensive coaching and personal academic mentoring for classes 5 to 10 across CBSE, TBSE, and ICSE boards. Build a solid foundation for lifelong success.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <a href="#contact" class="inline-flex items-center justify-center bg-brandYellow text-brandDark font-bold px-8 py-4 rounded-xl shadow-xl hover:bg-yellow-400 transition transform hover:-translate-y-1">
+                        Get Started Today <i class="fa-solid fa-arrow-right ml-2"></i>
+                    </a>
+                    <a href="#courses" class="inline-flex items-center justify-center bg-slate-800 hover:bg-slate-700 border border-slate-700 text-white font-semibold px-8 py-4 rounded-xl backdrop-blur-sm transition">
+                        Explore Courses
+                    </a>
+                </div>
+            </div>
+            
+            <div data-aos="fade-left" data-aos-duration="1000" class="relative flex justify-center">
+                <div class="relative w-full max-w-md bg-slate-900/80 border border-slate-800 p-6 rounded-3xl backdrop-blur-xl shadow-2xl shadow-emerald-950/50">
+                    <div class="absolute -top-4 -right-4 bg-brandYellow text-brandDark font-bold px-4 py-2 rounded-xl shadow-lg text-sm flex items-center gap-2">
+                        <i class="fa-solid fa-star"></i> Trusted Guidance
+                    </div>
+                    <div class="space-y-4">
+                        <div class="flex items-center space-x-4 bg-slate-800/60 p-4 rounded-2xl border border-slate-700/50">
+                            <div class="bg-brandYellow text-brandDark p-3 rounded-xl font-bold">
+                                <i class="fa-solid fa-book-open text-xl"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-bold text-lg text-white">Classes 5 to 8</h3>
+                                <p class="text-sm text-slate-400">All Subjects Mastery</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center space-x-4 bg-slate-800/60 p-4 rounded-2xl border border-slate-700/50">
+                            <div class="bg-brandYellow text-brandDark p-3 rounded-xl font-bold">
+                                <i class="fa-solid fa-flask text-xl"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-bold text-lg text-white">Classes 9 & 10</h3>
+                                <p class="text-sm text-slate-400">Science Group & English</p>
+                            </div>
+                        </div>
+                        <div class="pt-2 border-t border-slate-800 flex justify-between items-center text-sm text-slate-400">
+                            <span><i class="fa-solid fa-location-dot text-brandYellow mr-1"></i> Nutan Nagar, Agartala</span>
+                            <span class="font-bold text-brandYellow">Join Now</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Boards We Cater To -->
+    <section id="boards" class="py-20 bg-slate-900 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-16" data-aos="fade-up">
+                <h2 class="text-3xl font-extrabold text-white tracking-tight sm:text-4xl mb-4">Supported Education Boards</h2>
+                <p class="text-slate-400">We align our teaching methodologies closely with standard board requirements to ensure top-notch academic performance.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- CBSE -->
+                <div data-aos="fade-up" data-aos-delay="100" class="bg-slate-950 border border-slate-800 p-8 rounded-3xl shadow-lg hover:border-emerald-500/50 transition duration-300 text-center group">
+                    <div class="w-16 h-16 bg-emerald-950 text-emerald-400 border border-emerald-800/50 rounded-2xl mx-auto flex items-center justify-center text-xl font-bold mb-6 group-hover:bg-emerald-600 group-hover:text-white transition">
+                        CBSE
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3">CBSE Curriculum</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">Concept-driven learning framework focused on analytical thinking and NCERT benchmarks.</p>
+                </div>
+                <!-- TBSE -->
+                <div data-aos="fade-up" data-aos-delay="200" class="bg-slate-950 border border-slate-800 p-8 rounded-3xl shadow-lg hover:border-yellow-500/50 transition duration-300 text-center group">
+                    <div class="w-16 h-16 bg-amber-950 text-amber-400 border border-amber-800/50 rounded-2xl mx-auto flex items-center justify-center text-xl font-bold mb-6 group-hover:bg-brandYellow group-hover:text-brandDark transition">
+                        TBSE
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3">TBSE Curriculum</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">Tailored guidance covering state board textbooks, scoring patterns, and examination blueprints.</p>
+                </div>
+                <!-- ICSE -->
+                <div data-aos="fade-up" data-aos-delay="300" class="bg-slate-950 border border-slate-800 p-8 rounded-3xl shadow-lg hover:border-blue-500/50 transition duration-300 text-center group">
+                    <div class="w-16 h-16 bg-blue-950 text-blue-400 border border-blue-800/50 rounded-2xl mx-auto flex items-center justify-center text-xl font-bold mb-6 group-hover:bg-blue-600 group-hover:text-white transition">
+                        ICSE
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3">ICSE Curriculum</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">Rigorous language emphasis and comprehensive syllabus depth for deep conceptual clarity.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Courses / Classes Offered -->
+    <section id="courses" class="py-20 bg-slate-950 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-16" data-aos="fade-up">
+                <h2 class="text-3xl font-extrabold text-white tracking-tight sm:text-4xl mb-4">Our Specialized Programs</h2>
+                <p class="text-slate-400">Structured coaching modules designed according to age groups and academic streams.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Program 1 -->
+                <div data-aos="fade-right" class="bg-slate-900 border border-slate-800 rounded-3xl p-8 shadow-xl flex flex-col justify-between hover:border-slate-700 transition">
+                    <div>
+                        <div class="flex items-center justify-between mb-6">
+                            <span class="bg-emerald-950 text-emerald-400 border border-emerald-800/50 font-bold px-4 py-1 rounded-full text-sm">Class 5 to 8</span>
+                            <i class="fa-solid fa-child-reaching text-2xl text-emerald-400"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-white mb-3">All Subjects Focus</h3>
+                        <p class="text-slate-400 mb-6">Building robust fundamentals across Mathematics, Science, Social Studies, English, and regional languages to ensure overall academic progress.</p>
+                        <ul class="space-y-3 mb-8 text-sm text-slate-300">
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-400"></i> Daily homework assistance & concept clarification</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-400"></i> Regular chapter-end evaluations</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-400"></i> Friendly and engaging learning environment</li>
+                        </ul>
+                    </div>
+                    <a href="#contact" class="block text-center bg-brandYellow text-brandDark font-bold py-3 rounded-xl hover:bg-yellow-400 transition">Enquire Now</a>
+                </div>
+
+                <!-- Program 2 -->
+                <div data-aos="fade-left" class="bg-slate-900 border border-slate-800 rounded-3xl p-8 shadow-xl flex flex-col justify-between hover:border-slate-700 transition">
+                    <div>
+                        <div class="flex items-center justify-between mb-6">
+                            <span class="bg-amber-950 text-amber-400 border border-amber-800/50 font-bold px-4 py-1 rounded-full text-sm">Class 9 & 10</span>
+                            <i class="fa-solid fa-atom text-2xl text-amber-400"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-white mb-3">Science Group & English</h3>
+                        <p class="text-slate-400 mb-6">Targeted high-school coaching focusing on Physics, Chemistry, Biology, Mathematics, and English grammar & literature.</p>
+                        <ul class="space-y-3 mb-8 text-sm text-slate-300">
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-400"></i> Advanced numerical and practical problem-solving</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-400"></i> Previous years' board question paper practice</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-400"></i> Special mock tests for board readiness</li>
+                        </ul>
+                    </div>
+                    <a href="#contact" class="block text-center bg-brandYellow text-brandDark font-bold py-3 rounded-xl hover:bg-yellow-400 transition">Enquire Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-slate-900 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            <div data-aos="fade-right">
+                <div class="relative">
+                    <div class="bg-slate-950 border border-slate-800 rounded-3xl p-8 text-white shadow-xl relative z-10">
+                        <h3 class="text-2xl font-bold mb-4 text-brandYellow">Why Choose Chatrachaya?</h3>
+                        <p class="text-slate-300 mb-6 text-sm leading-relaxed">We believe every student has unique potential. Our dedicated approach ensures personalized attention, simplified explanations, and continuous improvement.</p>
+                        <div class="space-y-4">
+                            <div class="flex items-start space-x-3">
+                                <div class="bg-brandYellow text-brandDark p-1.5 rounded-lg mt-1"><i class="fa-solid fa-check text-xs"></i></div>
+                                <div><h4 class="font-bold text-white">Experienced Mentorship</h4><p class="text-xs text-slate-400">Guiding students with patience and precision.</p></div>
+                            </div>
+                            <div class="flex items-start space-x-3">
+                                <div class="bg-brandYellow text-brandDark p-1.5 rounded-lg mt-1"><i class="fa-solid fa-check text-xs"></i></div>
+                                <div><h4 class="font-bold text-white">Small Batch Sizes</h4><p class="text-xs text-slate-400">Ensuring individual doubt clearing sessions.</p></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="absolute -bottom-6 -right-6 w-full h-full bg-emerald-600/10 rounded-3xl -z-0"></div>
+                </div>
+            </div>
+            
+            <div data-aos="fade-left" class="space-y-6">
+                <span class="text-brandYellow font-bold uppercase tracking-wider text-sm">About Our Tuition House</span>
+                <h2 class="text-3xl font-extrabold text-white sm:text-4xl">Dedicated to Academic Excellence in Agartala</h2>
+                <p class="text-slate-400 leading-relaxed">
+                    Located centrally at Nutan Nagar, Airport Road, Chatrachaya Tuition House has been a trusted choice for parents seeking quality supplemental education. We emphasize fundamental clarity over rote memorization.
+                </p>
+                <div class="grid grid-cols-2 gap-6 pt-4">
+                    <div class="bg-slate-950 p-4 rounded-2xl border border-slate-800">
+                        <span class="block text-3xl font-extrabold text-brandYellow mb-1">3+</span>
+                        <span class="text-sm text-slate-400 font-medium">Boards Covered</span>
+                    </div>
+                    <div class="bg-slate-950 p-4 rounded-2xl border border-slate-800">
+                        <span class="block text-3xl font-extrabold text-brandYellow mb-1">5-10</span>
+                        <span class="text-sm text-slate-400 font-medium">Class Range</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Location Section -->
+    <section id="contact" class="py-20 bg-slate-950 border-t border-slate-800 text-white relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-16" data-aos="fade-up">
+                <h2 class="text-3xl font-extrabold tracking-tight sm:text-4xl mb-4 text-brandYellow">Get in Touch With Us</h2>
+                <p class="text-slate-400">Have queries about admissions, schedules, or fees? Give us a call or visit our center.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                <!-- Contact Info -->
+                <div data-aos="fade-right" class="space-y-8 bg-slate-900 p-8 rounded-3xl border border-slate-800 shadow-xl">
+                    <h3 class="text-2xl font-bold mb-6 text-white">Contact Information</h3>
+                    
+                    <div class="flex items-start space-x-4">
+                        <div class="bg-brandYellow text-brandDark p-3 rounded-2xl text-lg font-bold">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+                        <div>
+                            <h4 class="text-slate-400 text-sm font-semibold mb-1">Phone Numbers</h4>
+                            <a href="tel:9863515869" class="text-lg font-bold block hover:text-brandYellow transition">9863204807</a>
+                            <a href="tel:9089036095" class="text-lg font-bold block hover:text-brandYellow transition">9089036095</a>
+                        </div>
+                    </div>
+
+                    <div class="flex items-start space-x-4">
+                        <div class="bg-brandYellow text-brandDark p-3 rounded-2xl text-lg font-bold">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <div>
+                            <h4 class="text-slate-400 text-sm font-semibold mb-1">Location Address</h4>
+                            <p class="text-base font-medium text-slate-200">
+                                Nutan Nagar, Airport Road, Agartala, Tripura
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="pt-6 border-t border-slate-800">
+                        <a href="tel:9863515869" class="w-full inline-flex items-center justify-center gap-2 bg-brandYellow text-brandDark font-bold py-4 rounded-xl shadow-lg hover:bg-yellow-400 transition">
+                            <i class="fa-solid fa-phone-volume"></i> Call Now for Admission
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Quick Location Card / Map Note -->
+                <div data-aos="fade-left" class="bg-slate-900 p-8 rounded-3xl border border-slate-800 shadow-xl flex flex-col justify-between">
+                    <div>
+                        <h3 class="text-2xl font-bold mb-6 text-white">Visit Our Center</h3>
+                        <p class="text-slate-300 mb-6 leading-relaxed">
+                            Parents and students are welcome to visit our tuition house directly for inquiry during evening hours. Let’s chart out a path for better grades together.
+                        </p>
+                        <div class="bg-slate-950 p-6 rounded-2xl border border-slate-800 space-y-3 mb-6">
+                            <div class="flex items-center gap-3 text-slate-300">
+                                <i class="fa-solid fa-clock text-brandYellow"></i>
+                                <span><strong>Timing:</strong> Flexible Batches (Morning & Evening)</span>
+                            </div>
+                            <div class="flex items-center gap-3 text-slate-300">
+                                <i class="fa-solid fa-map-pin text-brandYellow"></i>
+                                <span>Nutan Nagar, Airport Road, Agartala</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center text-xs text-slate-500">
+                        © 2026 Chatrachaya Tuition House. All rights reserved.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AOS Script Integration -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            once: true,
+            offset: 80,
+            duration: 800,
+        });
+    </script>
+</body>
+</html>
